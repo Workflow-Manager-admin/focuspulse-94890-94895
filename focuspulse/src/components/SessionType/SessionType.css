@@ -1,0 +1,53 @@
+.session-type-container {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-type-container h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.session-type-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.session-btn {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+  max-width: 120px;
+}
+
+.session-btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.session-btn.active {
+  background-color: var(--kavia-orange);
+  border-color: var(--kavia-orange);
+  color: white;
+}
+
+.session-info {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+  min-height: 20px;
+}
