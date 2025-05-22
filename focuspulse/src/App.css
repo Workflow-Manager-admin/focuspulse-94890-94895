@@ -4,6 +4,9 @@
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+  --focus-color: #E87A41;
+  --break-color: #4CAF50;
+  --long-break-color: #2196F3;
 }
 
 body {
